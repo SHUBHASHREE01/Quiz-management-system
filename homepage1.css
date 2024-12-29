@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-position: center;
+}
+
+header {
+    color: black; 
+    padding: 20px;
+    text-align: left; 
+    margin: auto; 
+    max-width: 800px; 
+}
+
+.container {
+    display: flex;
+}
+
+.Description {
+    padding: 10% 30%; 
+    color: black;
+    text-align: center;
+}
+
+.content {
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.wel {
+    width: 50%; /* Set the width of the container */
+    margin: 10px auto 0; 
+    text-align: center;
+}
+
+.button-container {
+    position: fixed;
+    bottom: 30px;
+    width: 100%;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.button {
+    display: inline-block;
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 50px; /* Added margin to create space between buttons */
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.button:hover {
+    background-color: black;
+}
+
+video {
+    position: fixed;
+    top: 50%; /* Adjust the top position */
+    left: 50%; /* Adjust the left position */
+    min-width: 30%; /* Adjust the minimum width */
+    min-height: 30%; /* Adjust the minimum height */
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+}
